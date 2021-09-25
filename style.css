@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.max-width{
+    max-width: 1270px;
+    margin: auto;
+}
+
+/*-------- hero-section ------------*/
+.hero-section{
+    background-color: #22c3a3;
+}
+.header{}
+.header-left{
+    float: left;
+}
+.header-left h2{
+    color: white;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.header-right{
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    color:rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 80px;
+    padding: 0px 10px;
+}
+
+
+/* ----------bunner-section---------*/
+.bunner-section{
+    background-image: url("https://i.ibb.co/1sn7c9j/header-bg01.jpg");
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px;
+}
+.bunner-content{
+    tac
+}
+.bunner-content h1{
+    font-size: 50px;
+    color: #fff;
+}
+.bunner-content p{
+    color: #cef2eb;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.bunner-content a{
+    color: #e4f8f4;
+    text-decoration: none;
+    border:2px solid #e4f8f4;
+    padding:10px 20px ;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*--------- service-section---------- */
+.service{}
+.service h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #555555;
+}
+.service p{
+    color:#828282 ;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------------ skill-section----------- */
+.web{
+    max-width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin: 100px 33px 120px;
+    
+}
+.web span{
+    font-size:40px;
+    color: #0dbf9b;
+    margin: 20px;
+    display: inline-block;
+
+}
+.web h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #656565;
+    margin-bottom: 10px;
+}
+.web p{
+    color:#828282 ;
+    font-size: 16px;
+}
+.skill-section{
+    border-bottom: 2px solid #00b88f;
+}
+
+/*----------- About-section -----------*/
+.about{
+   
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #555555;
+}
+.about p{
+    color:#828282 ;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----- container-section ----------*/
+.content-left{
+    width: 46%;
+    float: left;
+    margin-top: 40px ;
+    margin-bottom: 80px;
+}
+.content-left img{
+    max-width: 100%;
+}
+.content-right{
+    width: 51%;
+    float: right;
+    margin-top: 30px;
+}
+.content{
+    font-family: 'Open Sans', sans-serif;
+}
+.content h2{
+    font-size: 20px;
+    color: #6c6c6c;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+.content p{
+    color:#828282 ;
+    font-size: 16px;
+}
+
+
+/*-------- contact-section -----------*/
+.contact-section{
+    background-color:#f6f6f6;
+}
+.contact{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    
+}
+.contact h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #555555;
+    display: inline-block;
+}
+.contact p{
+    color:#828282 ;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-way{
+    max-width: 1000px;
+    margin: auto;
+   
+}
+.location{
+    margin: 80px 0px;
+    float: left;
+    text-align: center;
+}
+.location span{
+    font-size:20px;
+    margin: 10px;
+    color: #0dbf9b;
+    display: inline-block;
+}
+.location p{
+    color:#828282 ;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.margin{
+    margin: 0px 260px;
+    margin-top: 80px;
+}
+
+
+/*------------ footer-section -----------*/
+.footer-icon{
+    background-color: #0dbf9b;
+}
+.footer-icon ul{
+    text-align: center;
+}
+.footer-icon ul li{
+    display: inline-block;
+}
+.footer-icon ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.footer{
+    background-color: #222222;
+    text-align: center;
+}
+.footer p{
+    color: #505050;
+    font-size: 16px;
+    padding: 15px 0px;
+}
